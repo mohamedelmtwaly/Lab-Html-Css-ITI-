@@ -1,4 +1,4 @@
-# HTML & CSS Labs — ITI
+# HTML & CSS Lab — ITI
 
 This repository contains basic practice tasks using **HTML** and **CSS** only.  
 The purpose is to apply the core concepts of building and styling simple web pages.  
