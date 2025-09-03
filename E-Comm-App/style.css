@@ -1,0 +1,201 @@
+/*FORM*/
+
+.page-form {
+  background-image: url("Images/background.jpeg");
+  background-repeat: repeat;
+  height: 100vh;
+  background-size: contain;
+}
+
+.container-form {
+  background-color: rgba(128, 128, 128, 0.863);
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 11px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container-form td {
+  padding-top: 15px;
+}
+
+.container-form input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.418);
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.container-form input:focus {
+  border-bottom: 2px solid #09c;
+}
+
+.container-form .btn {
+  text-decoration: none;
+  background-color: blueviolet;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.link-page {
+  color: blueviolet;
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+/* HOME PAGE*/
+
+.header img {
+  width: 35px;
+  display: inline-block;
+  margin-right: 300px;
+}
+.main-nav-list {
+  display: inline-block;
+  margin-right: 300px;
+
+}
+
+.main-nav-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-nav-list ul a {
+  color: rgb(204, 0, 255);
+  text-decoration: none;
+}
+.main-nav-list ul a:hover {
+    color: rgb(204, 0, 21)
+}
+
+.main-nav-list ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.log-out-link{
+  background-color: rgb(204, 0, 255);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.log-out-link:hover{
+  background-color: rgb(204, 0, 230)
+}
+
+.products-container {
+  margin-top: 30px;
+}
+
+.product {
+  display: inline-block;
+  text-align: center;
+  transition: all;
+  margin-left: 120px;
+  border: 5px solid transparent;
+  border-radius: 11px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}
+
+.product:hover {
+  cursor: pointer;
+  background-color: rgb(204, 0, 255);
+}
+
+.product p {
+  color: rgb(204, 0, 255);
+}
+.product:hover p {
+  color: #fff;
+}
+
+/* About PAGE*/
+
+.sec-container {
+  background-image: url("Images/background.jpeg");
+
+}
+
+#page-about .sec-container {
+  height: 90vh;
+}
+
+.description {
+  background-color: rgba(255, 0, 255, 0.74);
+  width: 360px;
+  text-align: center;
+  border-radius: 11px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 5px;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(255, 0, 255);
+  border-radius: 4px;
+}
+
+/* CONTACT US PAGE*/
+.contact-container {
+  height: 35vh;
+}
+
+
+
+
+
+
+.contact-container .contact {
+  margin-top: 20px;
+  margin-left: 200px;
+  max-width: 20%;
+  display: inline-block;
+  background-color: rgba(128, 128, 128, 0.788);
+  text-align: center;
+  border-radius: 11px;
+  padding: 20px 10px;
+}
+
+/* Product Details PAGE*/
+.container-products-details {
+  background-color: rgba(255, 0, 255, 0.479);
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-radius: 11px;
+  text-align: center;
+  padding: 10px 20px;
+  width: 360px;
+}
+.container-products-details > img{
+ width: 100%;
+}
+
+.icon-whats {
+  width: 70px;
+}
+
+
